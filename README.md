@@ -11,8 +11,16 @@ If you set the parameter ```INSTALL_NGINX``` to ```True``` you should also confi
 
 ##### 1. Download the script:
 ```
+sudo wgethttps://raw.githubusercontent.com/sumerbabel/InstallScript/13.0/odoo_install.sh
 sudo wget https://raw.githubusercontent.com/Yenthe666/InstallScript/13.0/odoo_install.sh
 ```
+```
+sudo chmod +x odoo_install.sh
+```
+```
+sudo ./odoo_install.sh
+
+
 ##### 2. Modify the parameters as you wish.
 There are a few things you can configure, this is the most used list:<br/>
 ```OE_USER``` will be the username for the system user.<br/>
